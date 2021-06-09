@@ -1,13 +1,14 @@
 /*feel free to contact
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
- * last updated - time 11:28am - date 12 may 2021
+ * last updated - time 12:28 AM - date 10 june 2021
+ * Github Link :-- https://github.com/Zenomodiff/ESP8266-Webserver-To-Control-Relay
  */
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "Zeno Modiff";
-const char* password = "zenomodiff@123";
+const char* ssid     = "PASTE THE WIFI NAME";
+const char* password = "PASTE THE WIFI PASSWORD";
 
 WiFiServer server(80);
 
